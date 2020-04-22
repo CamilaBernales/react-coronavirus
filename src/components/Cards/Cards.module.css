@@ -1,0 +1,39 @@
+.container{
+    margin: 50px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card{
+    margin:0 2% !important;
+}
+.infected:hover{
+    background-color:rgb(250,251,201);
+    color: rgb(255, 227, 24);
+}
+.recovered:hover{
+    background-color: #edffea;
+    color: #5b8c5a ;
+}
+.deaths:hover{
+    background-color: rgb(255, 238, 238);
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.infected{
+    border: 1px solid rgb(251,255,24);
+   
+}
+
+.recovered{
+    border: 1px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths{
+    border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 800px){
+    .card{
+        margin: 2% 0 !important;
+    }
+}
