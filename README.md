@@ -1,7 +1,9 @@
 Coronavirus Tracker
 
 DEMO : https://coronavirusaplicacion.netlify.app/
-Through a REST API it allows you to search to obtain results of movies
+
+This application allows us to know the number of recovered, infected and deaths by COVID-19 in different countries
+
 
 Starting 🚀
 
